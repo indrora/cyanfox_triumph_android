@@ -436,7 +436,7 @@
 
   <!-- TRIUMPH, BABY! -->
 
-  <project path="device/motorola/triumph" name="MTDEV-CM10/android_device_motorola_triumph" />
+  <project path="vendor/motorola/triumph" name="MTDEV-CM10/android_vendor_motorola_triumph" />
 
 
 <!--
