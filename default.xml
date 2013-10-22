@@ -25,11 +25,11 @@
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" revision="refs/tags/jellybean"/>
+  <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" revision="refs/branch/jellybean"/>
 <!--
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
 -->
-  <project path="bootable/bootloader/legacy" name="indrora/android_bootable_bootloader_legacy" revision="refs/tags/jellybean"/>		
+  <project path="bootable/bootloader/legacy" name="indrora/android_bootable_bootloader_legacy" revision="refs/branch/jellybean"/>		
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r3.1" groups="cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
@@ -52,7 +52,7 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
 -->
   <!-- Triumph device sources -->
-  <project path="device/motorola/triumph" name="MTDEV-CM10/android_device_motorola_triumph" />
+  <project path="device/motorola/triumph" name="MTDEV-CM10/android_device_motorola_triumph" revision="refs/branch/jellybean" />
 
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
