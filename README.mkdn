@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanFox trees, use a command like this:
 
-    repo init -u git://github.com/MTDEVFox/android.git -b cm-10.2
+    repo init -u git://github.com/indrora/cyanfox_triumph_android.git -b jellybean
 
 Then to sync up:
 
